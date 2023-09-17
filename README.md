@@ -89,7 +89,7 @@ Build the project and deploy on branch gh-pages
 
 <b>Chiara Amato (Web Developer React Frontend)</b>
 <a href="https://github.com/kiara9393">
-  <img src="https://avatars.githubusercontent.com/u/35834135?v=4?size=50">
+  <img src="https://avatars.githubusercontent.com/u/35834135" style="width:50px;">
 </a>
 
 <!-- markdownlint-enable -->
