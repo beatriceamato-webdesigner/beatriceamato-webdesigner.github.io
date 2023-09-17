@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  padding: 50px 0px 30px 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-name {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-link {
+  margin: 0 15px 0 15px;
+}
