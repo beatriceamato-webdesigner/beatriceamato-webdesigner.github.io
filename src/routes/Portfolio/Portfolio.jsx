@@ -1,12 +1,11 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
 import './Portfolio.scss';
 
 function Portfolio() {
   return (
-    <div className="background-image">
-      <Header />
-    </div>
+    <button type="button" className="btn btn-primary">
+      Primary!!
+    </button>
   );
 }
 
