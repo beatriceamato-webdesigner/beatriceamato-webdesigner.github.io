@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from '../../components/Header/Header';
+import Hero from '../../components/Hero/Hero';
 import './Home.scss';
 
-function Home() {
-  return <div className="img__home"></div>;
-}
+const Home = () => (
+  <div className="background-image">
+    <Header />
+    <Hero />
+  </div>
+);
 
 export default Home;
