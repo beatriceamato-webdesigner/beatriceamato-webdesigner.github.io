@@ -21,6 +21,12 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    quotes: [1, 'single']
+    quotes: [1, 'single'],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'
+      }
+    ]
   }
 };

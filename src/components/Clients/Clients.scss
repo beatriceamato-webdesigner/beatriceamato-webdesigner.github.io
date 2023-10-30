@@ -1,0 +1,58 @@
+.clients-container {
+  padding: 80px 0 80px 0;
+  display: flex;
+  flex-direction: column;
+
+  .clients-title {
+    color: #dedede;
+    font-family: Playfair Display;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .clients-beauty {
+      background: linear-gradient(90deg, #3A1CF5 25.02%, #DE114B 43.65%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Playfair Display;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 65px;
+      padding: 0 10px;
+    }
+  }
+
+  .client-list {
+    display: flex;
+    width: 100%;
+    padding: 16px 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+
+    @media screen and (min-width: 639px) and (max-width: 992px) {
+      .client-item {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+      }       
+    }
+  }
+
+  .btn-more_clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 180px;
+  }
+}

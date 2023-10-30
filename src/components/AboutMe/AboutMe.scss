@@ -1,0 +1,50 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  padding: 90px 0 100px;
+}
+
+.wrap-about {
+  display: flex;
+  flex-direction: column;
+  padding: 0 120px 0 0;
+  width: 100%;
+}
+
+.about-image {
+  background-image: url('../../assets/img/aboutMe.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 475px;
+  width: 100%;
+}
+
+.about-title {
+  color: #dedede;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+
+.about-subtitle {
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 0 0 60px 0;
+
+  b {
+    font-family: Poppins;
+    font-weight: 600;
+  }
+}
+
+.about-actions {
+  display: flex;
+  gap: 20px;
+}
