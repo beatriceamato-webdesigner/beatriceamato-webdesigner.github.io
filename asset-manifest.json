@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd1d311b.css",
-    "main.js": "/static/js/main.9e7a146e.js",
+    "main.css": "/static/css/main.69f0e0bf.css",
+    "main.js": "/static/js/main.90b89201.js",
     "static/js/787.4652a532.chunk.js": "/static/js/787.4652a532.chunk.js",
     "static/media/CV.pdf": "/static/media/CV.2b979fdef9112c4c9316.pdf",
     "static/media/service_page.png": "/static/media/service_page.39c9c40ad43a9ee5f766.png",
@@ -12,12 +12,12 @@
     "static/media/PREVINET.png": "/static/media/PREVINET.ea968f228e80c77289b5.png",
     "static/media/laScuolaSei.png": "/static/media/laScuolaSei.ff83cb01bb415de41717.png",
     "index.html": "/index.html",
-    "main.bd1d311b.css.map": "/static/css/main.bd1d311b.css.map",
-    "main.9e7a146e.js.map": "/static/js/main.9e7a146e.js.map",
+    "main.69f0e0bf.css.map": "/static/css/main.69f0e0bf.css.map",
+    "main.90b89201.js.map": "/static/js/main.90b89201.js.map",
     "787.4652a532.chunk.js.map": "/static/js/787.4652a532.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd1d311b.css",
-    "static/js/main.9e7a146e.js"
+    "static/css/main.69f0e0bf.css",
+    "static/js/main.90b89201.js"
   ]
 }
