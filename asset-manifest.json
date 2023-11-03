@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e3cb6e7.css",
-    "main.js": "/static/js/main.14c85146.js",
+    "main.css": "/static/css/main.cff30f39.css",
+    "main.js": "/static/js/main.1811c1e5.js",
+    "static/js/679.f7a1eae5.chunk.js": "/static/js/679.f7a1eae5.chunk.js",
     "static/js/787.4652a532.chunk.js": "/static/js/787.4652a532.chunk.js",
     "static/media/CV.pdf": "/static/media/CV.2b979fdef9112c4c9316.pdf",
     "static/media/service_page.png": "/static/media/service_page.39c9c40ad43a9ee5f766.png",
     "static/media/aboutMe.png": "/static/media/aboutMe.2042b9304645929520f6.png",
     "static/media/hero.png": "/static/media/hero.2bcbb94769ad6ee0b6e9.png",
+    "static/media/Fideuram.png": "/static/media/Fideuram.6889aa64f62633f9207a.png",
+    "static/media/Wonders.png": "/static/media/Wonders.a06e26862ad7a3be8579.png",
+    "static/media/MacBook.png": "/static/media/MacBook.186d22dd8ad36a93b202.png",
     "static/media/logo-menarini.png": "/static/media/logo-menarini.affaec84a09cabf500aa.png",
     "static/media/SIGEST.png": "/static/media/SIGEST.3b3a23c0a0ef2fa9063c.png",
     "static/media/PREVINET.png": "/static/media/PREVINET.ea968f228e80c77289b5.png",
     "static/media/laScuolaSei.png": "/static/media/laScuolaSei.ff83cb01bb415de41717.png",
     "index.html": "/index.html",
-    "main.6e3cb6e7.css.map": "/static/css/main.6e3cb6e7.css.map",
-    "main.14c85146.js.map": "/static/js/main.14c85146.js.map",
+    "main.cff30f39.css.map": "/static/css/main.cff30f39.css.map",
+    "main.1811c1e5.js.map": "/static/js/main.1811c1e5.js.map",
+    "679.f7a1eae5.chunk.js.map": "/static/js/679.f7a1eae5.chunk.js.map",
     "787.4652a532.chunk.js.map": "/static/js/787.4652a532.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e3cb6e7.css",
-    "static/js/main.14c85146.js"
+    "static/css/main.cff30f39.css",
+    "static/js/main.1811c1e5.js"
   ]
 }
