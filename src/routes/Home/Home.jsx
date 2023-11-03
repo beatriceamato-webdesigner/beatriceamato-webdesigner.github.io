@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
 import Clients from '../../components/Clients/Clients';
 import AboutMe from '../../components/AboutMe/AboutMe';
+import Carousel from '../../components/Carousel/Carousel';
 import './Home.scss';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Hero handleClick={handleClick} />
       <Clients />
       <AboutMe />
+      <Carousel />
     </div>
   );
 };
