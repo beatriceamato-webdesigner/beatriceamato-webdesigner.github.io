@@ -7,4 +7,9 @@
   height: 30px;
   color: #dedede;
   text-decoration: none;
+
+  &:hover {
+    text-underline-offset: 8px;
+    text-decoration: underline;
+  }
 }

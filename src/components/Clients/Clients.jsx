@@ -1,10 +1,11 @@
 import React from 'react';
+// import PropTypes from 'prop-types';
 import { logos } from './utility';
 import Button from '../../components/Button/Button';
 import './Clients.scss';
 
 const Clients = () => (
-  <div className="clients-container">
+  <div id="clients" className="clients-container">
     <div className="clients-title">
       <span>
         Some of the<span className="clients-beauty">clients</span>I have designed for
@@ -20,5 +21,13 @@ const Clients = () => (
     </div>
   </div>
 );
+
+Clients.propTypes = {
+  // Add here some propTypes
+};
+
+Clients.defaultProps = {
+  // Add here some default propTypes values
+};
 
 export default Clients;

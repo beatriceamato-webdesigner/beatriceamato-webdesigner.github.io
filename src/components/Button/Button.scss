@@ -1,19 +1,36 @@
 .wrap-button {
+  display: flex;
   border-radius: 15px;
   font-family: Poppins;
-  font-size: 18px;
   font-style: normal;
-  font-weight: 700;
-  height: 30px;
   padding: 0 30px;
 }
 
 .primary {
   background-color: #dedede;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 700;
+
+  &:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
 }
 
 .secondary {
   background-color: transparent;
   color: #dedede;
   border: none;
+  font-size: 16px;
+  font-weight: 400;
+
+  &:hover {
+    text-underline-offset: 8px;
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 0;
+  }
 }

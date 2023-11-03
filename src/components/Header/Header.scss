@@ -24,9 +24,10 @@
 
   @media screen and (max-width: 425px) {
       flex-wrap: nowrap;
+      gap: 30px;
   }
 }
 
-.nav-link {
+.nav-btn {
   margin: 0 15px 0 15px;
 }

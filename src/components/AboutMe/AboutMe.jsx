@@ -5,7 +5,7 @@ import cv from '../../assets/CV.pdf';
 import './AboutMe.scss';
 
 const AboutMe = () => (
-  <div className="about-container">
+  <div id="aboutMe" className="about-container">
     <div className="wrap-about">
       <div className="about-title">About me</div>
       <div className="about-subtitle">

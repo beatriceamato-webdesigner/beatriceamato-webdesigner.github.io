@@ -5,7 +5,7 @@ import './Button.scss';
 const Button = ({ text, onClick, primary, secondary, icon }) => (
   <button
     type="button"
-    onClick={() => onClick()}
+    onClick={(e) => onClick(e)}
     className={`wrap-button ${primary ? 'primary' : ''}${secondary ? 'secondary' : ''}`}>
     {text}
     {icon && <i className={icon}></i>}

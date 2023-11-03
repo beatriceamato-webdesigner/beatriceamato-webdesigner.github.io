@@ -41,20 +41,19 @@
     align-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    margin-bottom: 80px;
-
-    @media screen and (min-width: 639px) and (max-width: 992px) {
-      .client-item {
-        width: 100%;
-        max-width: 120px;
-        height: auto;
-      }       
-    }
+    margin-bottom: 80px;   
 
     @media screen and (max-width: 768px) {
         padding: 16px;
     }
   }
+
+  .client-item {
+    @media screen and (max-width: 768px) {
+      max-width: 150px;
+    height: auto;
+    }
+  } 
 
   .btn-more_clients {
     display: flex;

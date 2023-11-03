@@ -77,4 +77,16 @@
   button {
     margin-right: 20px;
   }
+
+  @media screen and (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    button {
+      margin: 0;
+    }
+  }
 }
