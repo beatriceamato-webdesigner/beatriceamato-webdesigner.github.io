@@ -28,14 +28,12 @@
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      padding: 0 10px;
     }
   }
 
   .client-list {
     display: flex;
     width: 100%;
-    padding: 16px 100px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -50,8 +48,8 @@
 
   .client-item {
     @media screen and (max-width: 768px) {
-      max-width: 150px;
-    height: auto;
+      max-width: 100px;
+      height: auto;
     }
   } 
 

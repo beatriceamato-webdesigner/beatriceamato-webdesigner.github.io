@@ -9,7 +9,8 @@ const Hero = (props) => (
   <div className="hero-container">
     <div className="wrap-hero">
       <div className="hero-title">
-        Hi! I am Beatrice Amato <span className="hero-title__job1">Digital Art Director</span> and{' '}
+        Hi! I am Beatrice Amato <span className="hero-title__job1">Digital Art Director</span>
+        &nbsp;and&nbsp;
         <span className="hero-title__job2">UI/UX Designer</span>
       </div>
       <div className="hero-subtitle">

@@ -36,30 +36,21 @@
   font-style: normal;
   font-weight: 600;
   line-height: 65px;
+  word-wrap: break-word;
   padding-bottom: 20px;
 
   .hero-title__job1 {
-    background: var(--GRADIENT02---ORANGE, linear-gradient(90deg, #FF9F24 39.95%, #F74F0E 77.15%));
+    background: linear-gradient(90deg, #FF9F24 39.95%, #F74F0E 77.15%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Playfair Display;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 65px;
   }
 
   .hero-title__job2 {
-    background: var(--GRADIENT03---PINK02, linear-gradient(90deg, #FF0036 1.44%, #AD00FF 70.35%));
+    background: linear-gradient(90deg, #FF0036 1.44%, #AD00FF 70.35%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Playfair Display;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 65px;
   }
 }
 
@@ -75,19 +66,12 @@
 
 .hero-actions {
   display: flex;
-  button {
-    margin-right: 20px;
-  }
+  gap: 20px;
 
   @media screen and (max-width: 425px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-
-    button {
-      margin: 0;
-    }
   }
 }

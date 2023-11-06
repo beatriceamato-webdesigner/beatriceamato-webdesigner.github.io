@@ -8,7 +8,7 @@ const Clients = () => (
   <div id="clients" className="clients-container">
     <div className="clients-title">
       <span>
-        Some of the<span className="clients-beauty">clients</span>I have designed for
+        Some of the<span className="clients-beauty">&nbsp;clients&nbsp;</span>I have designed for
       </span>
     </div>
     <div className="client-list">

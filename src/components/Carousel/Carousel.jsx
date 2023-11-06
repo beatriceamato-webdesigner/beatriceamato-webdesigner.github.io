@@ -10,7 +10,9 @@ import './flickity.scss';
 const Carousel = () => {
   return (
     <div className="carousel-container">
-      <h1>My recent works</h1>
+      <span className="carousel-title">
+        My recent <span className="carousel-title-beauty">&nbsp;works</span>
+      </span>
       <Flickity>
         <img className="carousel-img" src={Fideuram} />
         <img className="carousel-img" src={MacBook} />

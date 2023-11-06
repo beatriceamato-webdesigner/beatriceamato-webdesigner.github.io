@@ -1,5 +1,39 @@
 .carousel-container {
   overflow: hidden;
+  padding: 50px 100px;
+  background: linear-gradient(101deg, rgba(139, 92, 246, 0.20) 7.97%, rgba(236, 72, 153, 0.20) 92.85%);
+  margin: 0 -100px 50px -100px;
+  max-width: calc(100% + 200px);
+
+  @media screen and (max-width: 768px) {
+    margin: 0 -50px 50px -50px;
+    padding: 50px;
+  }
+
+  @media screen and (max-width: 425px) {
+    margin: 0 -30px 50px -30px;
+    padding: 30px;
+  }
+}
+
+.carousel-title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #DEDEDE;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.carousel-title-beauty {
+  background: linear-gradient(90deg, #FF9F24 39.95%, #F74F0E 77.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .carousel-img {
