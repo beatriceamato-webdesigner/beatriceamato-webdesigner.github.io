@@ -1,5 +1,4 @@
 .wrap-anchor {
-  border-radius: 15px;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
@@ -9,12 +8,6 @@
   text-decoration: none;
 
   &:hover {
-    text-underline-offset: 6px;
-    text-decoration: underline;
-
-     i {
-      border-bottom: 1px solid #dedede;
-      font-weight: 700;
-     }
+    border-bottom: 2px solid #dedede;
   }
 }

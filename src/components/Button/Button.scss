@@ -1,9 +1,8 @@
 .wrap-button {
   display: flex;
-  border-radius: 15px;
   font-family: Poppins;
   font-style: normal;
-  padding: 0 30px;
+  border: none;
 }
 
 .primary {
@@ -12,6 +11,8 @@
   font-size: 18px;
   font-weight: 700;
   color: #121212;
+  border-radius: 15px;
+  padding: 0 30px;
 
   &:hover {
     opacity: 0.5;
@@ -27,8 +28,7 @@
   font-weight: 400;
 
   &:hover {
-    text-underline-offset: 8px;
-    text-decoration: underline;
+    border-bottom: 2px solid #dedede;
   }
 
   @media screen and (max-width: 573px) {
