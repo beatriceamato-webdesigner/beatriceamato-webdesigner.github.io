@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 573px) {
     flex-direction: column;
     gap: 25px;
 }
@@ -22,7 +22,7 @@
 .nav-menu {
   display: flex;
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 573px) {
       flex-wrap: nowrap;
       gap: 30px;
   }

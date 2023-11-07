@@ -11,6 +11,7 @@
   transition: 0.3s;
   font-size: 18px;
   font-weight: 700;
+  color: #121212;
 
   &:hover {
     opacity: 0.5;
@@ -30,7 +31,7 @@
     text-decoration: underline;
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 573px) {
     padding: 0;
   }
 }
