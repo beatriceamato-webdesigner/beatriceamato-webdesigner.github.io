@@ -11,7 +11,7 @@ const Header = (props) => (
       <Button text="Portfolio" secondary />
       <Button onClick={() => props.handleClick('contact')} text="Contract" secondary />
     </div>
-    <div>IT</div>
+    <div>EN</div>
   </div>
 );
 

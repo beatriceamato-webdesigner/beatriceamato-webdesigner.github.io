@@ -1,0 +1,132 @@
+@keyframes heartAnimationHover {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.70);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.75);
+	}
+
+	30% {
+		animation-timing-function: ease-in;
+		transform: scale(0.70);
+	}
+}
+
+@keyframes heartAnimation {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(0.70);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(1);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.90);
+	}
+
+	30% {
+		animation-timing-function: ease-in;
+		transform: scale(1);
+	}
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 100px 0;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.wrap-contact {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 120px;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+.contact-image {
+  background-image: url('../../assets/img/contact.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 475px;
+  width: 100%;
+}
+
+.contact-title {
+  color: #dedede;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.contact-subtitle {
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 0 0 60px 0;
+}
+
+.contact-social {
+  display: flex;
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  align-items: center;
+
+  i {
+    padding-right: 15px;
+    font-size: 15px;
+  }
+}
+
+.contact-social--link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  align-self: stretch;
+  padding: 30px 0 100px 0;
+
+  a {
+    animation: heartAnimation 2s ease 0s 1 normal none;
+    color: inherit;
+
+    i {
+      font-size: 23px;
+    }
+
+    &:hover {
+      animation: heartAnimationHover 2s ease 0s 1 normal none;
+      cursor: pointer;
+      color: #3d9cd3;
+      transform: scale(0.70);
+    }
+  }
+}

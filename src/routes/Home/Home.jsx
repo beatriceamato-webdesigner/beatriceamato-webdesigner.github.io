@@ -4,6 +4,7 @@ import Hero from '../../components/Hero/Hero';
 import Clients from '../../components/Clients/Clients';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Carousel from '../../components/Carousel/Carousel';
+import ContactInformation from '../../components/ContactInformation/ContactInformation';
 import './Home.scss';
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Clients />
       <AboutMe />
       <Carousel />
+      <ContactInformation />
     </div>
   );
 };
