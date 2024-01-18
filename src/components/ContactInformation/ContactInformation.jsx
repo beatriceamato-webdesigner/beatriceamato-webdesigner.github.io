@@ -1,5 +1,5 @@
 import React from 'react';
-import figmaLogo from '../../assets/svg/FIGMA.svg';
+// import figmaLogo from '../../assets/svg/FIGMA.svg';
 import './ContactInformation.scss';
 
 const ContactInformation = () => {
@@ -41,9 +41,9 @@ const ContactInformation = () => {
           <a href="mailto:beatrice.amato20@gmail.com?subject=Info&body=Hi Beatrice,%0D%0D%0DSignature:">
             <i className="bi bi-envelope-fill"></i>
           </a>
-          <a href="" target="_blank" rel="noreferrer">
+          {/* <a href="" target="_blank" rel="noreferrer">
             <img src={figmaLogo} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

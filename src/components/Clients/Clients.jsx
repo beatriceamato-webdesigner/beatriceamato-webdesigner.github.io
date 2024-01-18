@@ -13,7 +13,7 @@ const Clients = () => (
     </div>
     <div className="client-list">
       {logos.map((logo, index) => (
-        <img key={index} className="client-item" src={logo.src} alt={logo.alt} />
+        <img key={index} className={`client-item ${logo.src}`} alt={logo.alt} />
       ))}
     </div>
     <div className="btn-more_clients">

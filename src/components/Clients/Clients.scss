@@ -1,3 +1,49 @@
+@keyframes heartAnimationHover {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.70);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.75);
+	}
+
+	30% {
+		animation-timing-function: ease-in;
+		transform: scale(0.70);
+	}
+}
+
+@keyframes heartAnimation {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(0.70);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(1);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.90);
+	}
+
+	30% {
+		animation-timing-function: ease-in;
+		transform: scale(1);
+	}
+}
+
 .clients-container {
   padding: 80px 0 80px 0;
   display: flex;
@@ -39,17 +85,140 @@
     align-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    margin-bottom: 80px;   
-
-    @media screen and (max-width: 768px) {
-        padding: 16px;
-    }
+    margin-bottom: 80px;
+    padding: 0 50px;
   }
 
   .client-item {
+    animation: heartAnimation 2s ease 0s 1 normal none;
+    
     @media screen and (max-width: 768px) {
       max-width: 100px;
       height: auto;
+    }
+
+    &:hover {
+      animation: heartAnimationHover 2s ease 0s 1 normal none;
+    }
+    
+    &.edenred {
+      content: url("../../assets/img/clients-logo/ticketRestaurant-logo.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/ticketRestaurant-logo.svg");
+       }
+    }
+
+    &.menarini {
+      content: url("../../assets/img/clients-logo/logo-menarini.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/logo-menarini.svg");
+       }
+    }
+
+    &.fideuram {
+      content: url("../../assets/img/clients-logo/FIDEURAM.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/FIDEURAM.svg");
+       }
+    }
+
+    &.replay {
+      content: url("../../assets/img/clients-logo/REPLAY.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/REPLAY.svg");
+       }
+    }
+
+    &.rcs {
+      content: url("../../assets/img/clients-logo/RCS.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/RCS.svg");
+       }
+    }
+
+    &.cucinaBarilla {
+      content: url("../../assets/img/clients-logo/cucinabarilla.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/cucinabarilla.svg");
+       }
+    }
+
+    &.wonders {
+      content: url("../../assets/img/clients-logo/WONDERS.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/WONDERS.svg");
+       }
+    }
+
+    &.uta {
+      content: url("../../assets/img/clients-logo/UTA.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/UTA.svg");
+       }
+    }
+
+    &.laScuolaSei {
+      content: url("../../assets/img/clients-logo/laScuolaSei.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/laScuolaSei.svg");
+       }
+    }
+
+    &.fattiTrovare {
+      content: url("../../assets/img/clients-logo/fattiTrovare.png");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/fattiTrovare.png");
+       }
+    }
+
+    &.yeldo {
+      content: url("../../assets/img/clients-logo/YELDO.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/YELDO.svg");
+       }
+    }
+
+    &.botter {
+      content: url("../../assets/img/clients-logo/BOTTER.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/BOTTER.svg");
+       }
+    }
+
+    &.previnet {
+      content: url("../../assets/img/clients-logo/PREVINET.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/PREVINET.svg");
+       }
+    }
+
+    &.sigest {
+      content: url("../../assets/img/clients-logo/SIGEST.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/SIGEST.svg");
+       }
+    }
+
+    &.freeTox {
+      content: url("../../assets/img/clients-logo/FREETOX.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/FREETOX.svg");
+       }
     }
   } 
 
