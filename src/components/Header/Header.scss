@@ -31,3 +31,12 @@
 .nav-btn {
   margin: 0 15px 0 15px;
 }
+
+.header-lang {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+}
