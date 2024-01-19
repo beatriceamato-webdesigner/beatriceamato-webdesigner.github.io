@@ -91,6 +91,7 @@
 
   .client-item {
     animation: heartAnimation 2s ease 0s 1 normal none;
+    min-width: 201px;
     
     @media screen and (max-width: 768px) {
       max-width: 100px;
@@ -102,6 +103,7 @@
     }
     
     &.edenred {
+      min-width: 100px;
       content: url("../../assets/img/clients-logo/ticketRestaurant-logo.svg");
 
       &:hover{
