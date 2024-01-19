@@ -17,20 +17,28 @@ const Header = (props) => {
     <div className="header-container">
       <div className="profile-name">{formattedMessage.profileName}</div>
       <div className="nav-menu">
-        <Button onClick={() => props.handleClick('aboutMe')} text="About me" secondary />
-        <Button text="Portfolio" secondary />
-        <Button onClick={() => props.handleClick('contact')} text="Contract" secondary />
+        <Button
+          onClick={() => props.handleClick('aboutMeId')}
+          text={formattedMessage.aboutMe}
+          secondary
+        />
+        <Button text={formattedMessage.portfolio} secondary />
+        <Button
+          onClick={() => props.handleClick('contactId')}
+          text={formattedMessage.contact}
+          secondary
+        />
       </div>
       <div className="header-lang">
         <Button
           onClick={() => handleChangeLang('en')}
-          text="EN"
+          text={formattedMessage.en}
           secondary
           active={locale === 'en'}
         />
         <Button
           onClick={() => handleChangeLang('it')}
-          text="IT"
+          text={formattedMessage.it}
           secondary
           active={locale === 'it'}
         />

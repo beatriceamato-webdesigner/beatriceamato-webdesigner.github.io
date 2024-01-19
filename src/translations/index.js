@@ -5,8 +5,8 @@ import itStrings from './lang-it.json';
 import enStrings from './lang-en.json';
 
 const translationMessages = {
-  it: { ...itStrings },
-  en: { ...enStrings }
+  en: { ...enStrings },
+  it: { ...itStrings }
 };
 
 export default translationMessages;

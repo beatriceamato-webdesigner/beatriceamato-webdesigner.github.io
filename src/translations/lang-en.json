@@ -1,3 +1,8 @@
 {
-    "t.app.profileName": "Beatrice Amato EN"
+    "t.app.profileName": "Beatrice Amato",
+    "t.app.header.aboutMe": "About me",
+    "t.app.header.portfolio": "Portfolio",
+    "t.app.header.contact": "Contact",
+    "t.app.header.en": "EN",
+    "t.app.header.it": "IT"
 }
