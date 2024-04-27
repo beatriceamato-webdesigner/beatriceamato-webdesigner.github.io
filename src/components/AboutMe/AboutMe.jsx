@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { aboutMeId } from '../../utils/globals';
 import Anchor from '../../components/Anchor/Anchor';
 import cv from '../../assets/CV.pdf';
 import './AboutMe.scss';
 
 const AboutMe = () => (
-  <div id="aboutMeId" className="about-container">
+  <div id={aboutMeId} className="about-container">
     <div className="wrap-about">
       <div className="about-title">About me</div>
       <div className="about-subtitle">

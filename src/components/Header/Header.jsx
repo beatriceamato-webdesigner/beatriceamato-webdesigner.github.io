@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
+import { contactId, aboutMeId } from '../../utils/globals';
 import Button from '../Button/Button';
 import { setLanguageLocale } from '../../store/reducers/language';
 import formattedMessage from './languageModule';
@@ -18,13 +19,13 @@ const Header = (props) => {
       <div className="profile-name">{formattedMessage.profileName}</div>
       <div className="nav-menu">
         <Button
-          onClick={() => props.handleClick('aboutMeId')}
+          onClick={() => props.handleClick(aboutMeId)}
           text={formattedMessage.aboutMe}
           secondary
         />
         <Button text={formattedMessage.portfolio} secondary />
         <Button
-          onClick={() => props.handleClick('contactId')}
+          onClick={() => props.handleClick(contactId)}
           text={formattedMessage.contact}
           secondary
         />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { contactId } from '../../utils/globals';
 // import figmaLogo from '../../assets/svg/FIGMA.svg';
 import './ContactInformation.scss';
 
@@ -23,7 +24,7 @@ const ContactInformation = () => {
   ];
 
   return (
-    <div id="contactId" className="contact-container">
+    <div id={contactId} className="contact-container">
       <div className="contact-image"></div>
       <div className="wrap-contact">
         <div className="contact-title">Contact Information</div>

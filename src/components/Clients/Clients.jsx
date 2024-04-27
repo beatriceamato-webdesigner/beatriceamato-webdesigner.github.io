@@ -1,11 +1,12 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
+import { clientsId } from '../../utils/globals';
 import { logos } from './utility';
 import Button from '../../components/Button/Button';
 import './Clients.scss';
 
 const Clients = () => (
-  <div id="clientsId" className="clients-container">
+  <div id={clientsId} className="clients-container">
     <div className="clients-title">
       <span>
         Some of the<span className="clients-beauty">&nbsp;clients&nbsp;</span>I have designed for
