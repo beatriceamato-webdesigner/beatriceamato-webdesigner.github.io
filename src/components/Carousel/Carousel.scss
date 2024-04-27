@@ -1,16 +1,18 @@
+@import '../../assets/styles/variables.scss';
+
 .carousel-container {
   overflow: hidden;
   padding: 50px 100px;
-  background: linear-gradient(101deg, rgba(139, 92, 246, 0.20) 7.97%, rgba(236, 72, 153, 0.20) 92.85%);
+  background: $gradient-carousel;
   margin: 0 -100px 50px -100px;
   max-width: calc(100% + 200px);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     margin: 0 -50px 50px -50px;
     padding: 50px;
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: $mobile) {
     margin: 0 -30px 50px -30px;
     padding: 30px;
   }
@@ -20,17 +22,17 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  color: #dedede;
-  font-family: Playfair Display;
-  font-size: 40px;
+  color: $white-dark;
+  font-family: $font-family-Playfair;
+  font-size: $font-size-40;
   font-style: normal;
-  font-weight: 600;
+  font-weight: $font-weight-600;
   line-height: normal;
   padding-bottom: 20px;
 }
 
 .carousel-title-beauty {
-  background: linear-gradient(90deg, #FF9F24 39.95%, #F74F0E 77.15%);
+  background: $gradient-orange;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,15 +48,15 @@
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background: rgba(134, 128, 154, 0.60);
+    background: $grey;
     border-radius: 10px;
     text-align: center;
     line-height: 20rem;
     word-break: break-word;
-    color: #121212;
-    font-family: Playfair Display;
-    font-size: 40px;
-    font-weight: 900;
+    color: $black;
+    font-family: $font-family-Playfair;
+    font-size: $font-size-40;
+    font-weight: $font-weight-900;
     opacity: 0;
     
     &:hover {

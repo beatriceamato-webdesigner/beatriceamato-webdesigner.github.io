@@ -1,9 +1,11 @@
+@import '../../assets/styles/variables.scss';
+
 .about-container {
   display: flex;
   flex-direction: row;
   padding: 10px 0 100px 0;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     flex-direction: column;
     padding: 0;
   }
@@ -15,7 +17,7 @@
   padding: 0 120px 0 0;
   width: 100%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     padding: 0;
   }
 }
@@ -30,26 +32,26 @@
 }
 
 .about-title {
-  color: #dedede;
-  font-family: Playfair Display;
-  font-size: 48px;
+  color: $white-dark;
+  font-family: $font-family-Playfair;
+  font-size: $font-size-48;
   font-style: normal;
-  font-weight: 600;
+  font-weight: $font-weight-600;
   line-height: 60px;
   padding-bottom: 20px;
 }
 
 .about-subtitle {
-  font-family: Poppins;
-  font-size: 17px;
+  font-family: $font-family-Poppins;
+  font-size: $font-size-17;
   font-style: normal;
-  font-weight: 300;
+  font-weight: $font-weight-300;
   line-height: normal;
   padding: 0 0 60px 0;
 
   b {
-    font-family: Poppins;
-    font-weight: 600;
+    font-family: $font-family-Poppins;
+    font-weight: $font-weight-600;
   }
 }
 

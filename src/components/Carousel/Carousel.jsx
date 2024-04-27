@@ -17,17 +17,17 @@ const Carousel = () => {
         My recent <span className="carousel-title-beauty">&nbsp;works</span>
       </span>
       <Flickity>
-        {/* <img className="carousel-img" src={Fideuram} onClick={() => history('/')} /> */}
+        {/* <img className="carousel-img" src={Fideuram} alt="img Fideuram" onClick={() => history('/')} /> */}
         <div className="carousel-wrap-img">
-          <img className="carousel-img" src={Fideuram} />
+          <img className="carousel-img" src={Fideuram} alt="img Fideuram" />
           <p className="carousel-img__description">Fideuram</p>
         </div>
         <div className="carousel-wrap-img">
-          <img className="carousel-img" src={Wonders} />
+          <img className="carousel-img" src={Wonders} alt="img Wonders" />
           <p className="carousel-img__description">ASPI x Wonders</p>
         </div>
         <div className="carousel-wrap-img">
-          <img className="carousel-img" src={Edenred} />
+          <img className="carousel-img" src={Edenred} alt="img Edenred" />
           <p className="carousel-img__description">Edenred</p>
         </div>
       </Flickity>

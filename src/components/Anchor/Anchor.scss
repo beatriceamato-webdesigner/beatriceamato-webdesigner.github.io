@@ -1,13 +1,15 @@
+@import '../../assets/styles/variables.scss';
+
 .wrap-anchor {
-  font-family: Poppins;
-  font-size: 18px;
+  font-family: $font-family-Poppins;
+  font-size: $font-size-17;
   font-style: normal;
-  font-weight: 700;
+  font-weight: $font-weight-700;
   height: 30px;
-  color: #dedede;
+  color: $white-dark;
   text-decoration: none;
 
   &:hover {
-    border-bottom: 2px solid #dedede;
+    border-bottom: 2px solid $white-dark;
   }
 }

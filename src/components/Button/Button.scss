@@ -1,17 +1,19 @@
+@import '../../assets/styles/variables.scss';
+
 .wrap-button {
   align-items: center;
   display: flex;
-  font-family: Poppins;
+  font-family: $font-family-Poppins;
   font-style: normal;
   border: none;
 }
 
 .primary {
-  background-color: #dedede;
+  background-color: $white-dark;
   transition: 0.3s;
   font-size: 18px;
   font-weight: 700;
-  color: #121212;
+  color: $black;
   border-radius: 15px;
   padding: 0 30px;
 
@@ -23,20 +25,20 @@
 
 .secondary {
   background-color: transparent;
-  color: #dedede;
+  color: $white-dark;
   border: none;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: $font-size-17;
+  font-weight: $font-weight-400;
 
   &:hover {
-    border-bottom: 2px solid #dedede;
+    border-bottom: 2px solid $white-dark;
   }
 
-  @media screen and (max-width: 573px) {
+  @media screen and (max-width: $mobileL) {
     padding: 0;
   }
 
   &.active {
-    border-bottom: 2px solid #dedede;
+    border-bottom: 2px solid $white-dark;
   }
 }

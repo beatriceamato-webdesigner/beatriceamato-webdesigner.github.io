@@ -1,55 +1,11 @@
-@keyframes heartAnimationHover {
-	0% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-		transform-origin: center center;
-	}
-
-	10% {
-		animation-timing-function: ease-in;
-		transform: scale(0.70);
-	}
-
-	17% {
-		animation-timing-function: ease-out;
-		transform: scale(0.75);
-	}
-
-	30% {
-		animation-timing-function: ease-in;
-		transform: scale(0.70);
-	}
-}
-
-@keyframes heartAnimation {
-	0% {
-		animation-timing-function: ease-out;
-		transform: scale(0.70);
-		transform-origin: center center;
-	}
-
-	10% {
-		animation-timing-function: ease-in;
-		transform: scale(1);
-	}
-
-	17% {
-		animation-timing-function: ease-out;
-		transform: scale(0.90);
-	}
-
-	30% {
-		animation-timing-function: ease-in;
-		transform: scale(1);
-	}
-}
+@import '../../assets/styles/variables.scss';
 
 .contact-container {
   display: flex;
   flex-direction: row;
   padding: 10px 0 100px 0;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     flex-direction: column;
     padding: 0;
   }
@@ -61,7 +17,7 @@
   padding: 0 0 0 120px;
   width: 100%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     padding: 0;
   }
 }
@@ -76,28 +32,28 @@
 }
 
 .contact-title {
-  color: #dedede;
-  font-family: Playfair Display;
-  font-size: 48px;
+  color: $white-dark;
+  font-family: $font-family-Playfair;
+  font-size: $font-size-48;
   font-style: normal;
-  font-weight: 600;
+  font-weight: $font-weight-600;
   line-height: 60px;
 }
 
 .contact-subtitle {
-  font-family: Poppins;
-  font-size: 17px;
+  font-family: $font-family-Poppins;
+  font-size: $font-size-17;
   font-style: normal;
-  font-weight: 300;
+  font-weight: $font-weight-300;
   line-height: normal;
   padding: 0 0 60px 0;
 }
 
 .contact-social {
   display: flex;
-  font-family: Helvetica Neue;
+  font-family: $font-family-Poppins;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: $font-weight-600;
   padding-bottom: 30px;
   align-items: center;
 
@@ -125,7 +81,7 @@
     &:hover {
       animation: heartAnimationHover 2s ease 0s 1 normal none;
       cursor: pointer;
-      color: #1382BD;
+      color: $blue-light;
       transform: scale(0.70);
     }
   }
