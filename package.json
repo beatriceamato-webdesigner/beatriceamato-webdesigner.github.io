@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://beatriceamato-webdesigner.github.io/",
+  "engines": {
+    "node": ">= 18.15.0",
+    "yarn": ">= 1.22.22",
+    "npm": ">= 9.5.0"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
