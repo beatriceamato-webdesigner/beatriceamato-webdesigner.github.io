@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
-import { contactId, aboutMeId } from '../../utils/globals';
+import { contactId, aboutMeId, setLocalStorage } from '../../utils/globals';
 import Button from '../Button/Button';
 import { setLanguageLocale } from '../../store/reducers/language';
 import formattedMessage from './languageModule';
@@ -13,6 +13,7 @@ const Header = (props) => {
 
   const handleChangeLang = (value) => {
     dispatch(setLanguageLocale(value));
+    setLocalStorage('lang', value);
   };
   return (
     <div className="header-container">
