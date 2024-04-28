@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Button.scss';
 
-const Button = ({ text, onClick, primary, secondary, icon }) => (
+const Button = ({ text, onClick, primary, secondary, active, icon }) => (
   <button
     type="button"
-    onClick={() => onClick()}
-    className={`wrap-button ${primary ? 'primary' : ''}${secondary ? 'secondary' : ''}`}>
+    onClick={(e) => onClick(e)}
+    className={`wrap-button ${primary ? 'primary' : ''}${secondary ? 'secondary' : ''} ${
+      active ? 'active' : ''
+    }`}>
     {text}
     {icon && <i className={icon}></i>}
   </button>
@@ -14,10 +16,11 @@ const Button = ({ text, onClick, primary, secondary, icon }) => (
 
 Button.propTypes = {
   // Add here some propTypes
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   onClick: PropTypes.func,
   primary: PropTypes.bool,
   secondary: PropTypes.bool,
+  active: PropTypes.bool,
   icon: PropTypes.string
 };
 
@@ -27,6 +30,7 @@ Button.defaultProps = {
   onClick: () => {},
   primary: false,
   secondary: false,
+  active: false,
   icon: ''
 };
 

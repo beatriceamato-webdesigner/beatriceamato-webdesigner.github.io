@@ -1,0 +1,31 @@
+{
+    "t.app.profileName": "Beatrice Amato",
+    "t.app.general.downloadCV": "Download CV",
+    "t.app.general.findOutMore": "Find out more",
+
+    "t.app.header.aboutMe": "About me",
+    "t.app.header.portfolio": "Portfolio",
+    "t.app.header.contact": "Contact",
+    "t.app.header.en": "EN",
+    "t.app.header.it": "IT",
+
+    "t.app.hero.title": "Hi, I'm Beatrice ",
+    "t.app.hero.titleJob1": "Digital Art Director",
+    "t.app.hero.titleJob2": "UI/UX Designer",
+    "t.app.hero.subtitle": "On this website, you will have access to a comprehensive list of clients I have collaborated with over time, as well as a selection of projects I have undertaken throughout the years.",
+    "t.app.hero.and": "and",
+
+    "t.app.carousel.title": "My recent",
+    "t.app.carousel.titleBeauty": "works",
+
+    "t.app.contract.title": "Contact Information",
+    "t.app.contract.subtitle": "Say something to start a live chat",
+
+    "t.app.clients.title1": "Some of the",
+    "t.app.clients.title2": "I worked for",
+    "t.app.clients.titleBeauty": "clients",
+
+    "t.app.aboutMe.title": "About me",
+    "t.app.aboutMe.subtitle1": "Hello, I`m Beatrice. My hometown is Caltagirone, located in the inland of Sicily. I`ve always studied in Caltagirone at the \"Steve Jobs\" Academy, where I delved into <b>Digital Marketing</b> and <b>visual communication.</b> Later, I moved to Milan for work, specializing in <b>Digital Art Direction</b> and <b>UI/UX Design.</b>",
+    "t.app.aboutMe.subtitle2": "<b>If you`d like to learn more,</b> I encourage you to download my Curriculum Vitae below "
+}

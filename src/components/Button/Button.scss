@@ -1,19 +1,44 @@
+@import '../../assets/styles/variables.scss';
+
 .wrap-button {
-  border-radius: 15px;
-  font-family: Poppins;
-  font-size: 18px;
+  align-items: center;
+  display: flex;
+  font-family: $font-family-Poppins;
   font-style: normal;
-  font-weight: 700;
-  height: 30px;
-  padding: 0 30px;
+  border: none;
 }
 
 .primary {
-  background-color: #dedede;
+  background-color: $white-dark;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 700;
+  color: $black;
+  border-radius: 15px;
+  padding: 0 30px;
+
+  &:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
 }
 
 .secondary {
   background-color: transparent;
-  color: #dedede;
+  color: $white-dark;
   border: none;
+  font-size: $font-size-17;
+  font-weight: $font-weight-400;
+
+  &:hover {
+    border-bottom: 2px solid $white-dark;
+  }
+
+  @media screen and (max-width: $mobileL) {
+    padding: 0;
+  }
+
+  &.active {
+    border-bottom: 2px solid $white-dark;
+  }
 }

@@ -1,0 +1,45 @@
+@keyframes heartAnimationHover {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.70);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.75);
+	}
+
+	30% {
+		animation-timing-function: ease-in;
+		transform: scale(0.70);
+	}
+}
+
+@keyframes heartAnimation {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(0.70);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(1);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.90);
+	}
+
+	30% {
+		animation-timing-function: ease-in;
+		transform: scale(1);
+	}
+}

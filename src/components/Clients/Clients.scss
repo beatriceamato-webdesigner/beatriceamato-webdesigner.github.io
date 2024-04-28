@@ -1,69 +1,193 @@
+@import '../../assets/styles/variables.scss';
+
 .clients-container {
   padding: 80px 0 80px 0;
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     padding: 0;
   }
 
   .clients-title {
-    color: #dedede;
-    font-family: Playfair Display;
-    font-size: 52px;
+    color: $white-dark;
+    font-family: $font-family-Playfair;
+    font-size: $font-size-52;
     font-style: normal;
-    font-weight: 600;
+    font-weight: $font-weight-600;
     line-height: 65px;
     padding-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    @media screen and (max-width: 768px) {
-      font-size: 40px;
+    @media screen and (max-width: $tablet) {
+      font-size: $font-size-40;
     }
 
     .clients-beauty {
-      background: linear-gradient(90deg, #3A1CF5 25.02%, #DE114B 43.65%);
+      background: $gradient-blue;
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      padding: 0 10px;
     }
   }
 
   .client-list {
     display: flex;
     width: 100%;
-    padding: 16px 100px;
     justify-content: center;
     align-items: center;
     align-content: center;
     gap: 40px;
     flex-wrap: wrap;
     margin-bottom: 80px;
-
-    @media screen and (min-width: 639px) and (max-width: 992px) {
-      .client-item {
-        width: 100%;
-        max-width: 120px;
-        height: auto;
-      }       
-    }
-
-    @media screen and (max-width: 768px) {
-        padding: 16px;
-    }
+    padding: 0 50px;
   }
+
+  .client-item {
+    animation: heartAnimation 2s ease 0s 1 normal none;
+    min-width: 201px;
+    
+    @media screen and (max-width: $tablet) {
+      max-width: 100px;
+      height: auto;
+    }
+
+    &:hover {
+      animation: heartAnimationHover 2s ease 0s 1 normal none;
+    }
+    
+    &.edenred {
+      min-width: 100px;
+      content: url("../../assets/img/clients-logo/ticketRestaurant-logo.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/ticketRestaurant-logo.svg");
+       }
+    }
+
+    &.menarini {
+      content: url("../../assets/img/clients-logo/logo-menarini.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/logo-menarini.svg");
+       }
+    }
+
+    &.fideuram {
+      content: url("../../assets/img/clients-logo/FIDEURAM.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/FIDEURAM.svg");
+       }
+    }
+
+    &.replay {
+      content: url("../../assets/img/clients-logo/REPLAY.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/REPLAY.svg");
+       }
+    }
+
+    &.rcs {
+      content: url("../../assets/img/clients-logo/RCS.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/RCS.svg");
+       }
+    }
+
+    &.cucinaBarilla {
+      content: url("../../assets/img/clients-logo/cucinabarilla.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/cucinabarilla.svg");
+       }
+    }
+
+    &.wonders {
+      content: url("../../assets/img/clients-logo/WONDERS.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/WONDERS.svg");
+       }
+    }
+
+    &.uta {
+      content: url("../../assets/img/clients-logo/UTA.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/UTA.svg");
+       }
+    }
+
+    &.laScuolaSei {
+      content: url("../../assets/img/clients-logo/laScuolaSei.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/laScuolaSei.svg");
+       }
+    }
+
+    &.fattiTrovare {
+      content: url("../../assets/img/clients-logo/fattiTrovare.png");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/fattiTrovare.png");
+       }
+    }
+
+    &.yeldo {
+      content: url("../../assets/img/clients-logo/YELDO.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/YELDO.svg");
+       }
+    }
+
+    &.botter {
+      content: url("../../assets/img/clients-logo/BOTTER.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/BOTTER.svg");
+       }
+    }
+
+    &.previnet {
+      content: url("../../assets/img/clients-logo/PREVINET.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/PREVINET.svg");
+       }
+    }
+
+    &.sigest {
+      content: url("../../assets/img/clients-logo/SIGEST.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/SIGEST.svg");
+       }
+    }
+
+    &.freeTox {
+      content: url("../../assets/img/clients-logo/FREETOX.svg");
+
+      &:hover{
+        content: url("../../assets/img/clients-logo/hover/FREETOX.svg");
+       }
+    }
+  } 
 
   .btn-more_clients {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 180px;
+    padding-bottom: 100px;
 
-    @media screen and (max-width: 768px) {
-        padding: 0;
+    @media screen and (max-width: $tablet) {
+      padding-bottom: 100px;
     }
   }
 }

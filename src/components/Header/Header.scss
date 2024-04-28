@@ -1,3 +1,5 @@
+@import '../../assets/styles/variables.scss';
+
 .header-container {
   display: flex;
   padding: 50px 0px 30px 0px;
@@ -5,28 +7,38 @@
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: $mobileL) {
     flex-direction: column;
     gap: 25px;
 }
 }
 
 .profile-name {
-  font-family: Playfair Display;
-  font-size: 24px;
+  font-family: $font-family-Playfair;
+  font-size: $font-size-24;
   font-style: normal;
-  font-weight: 500;
+  font-weight: $font-weight-500;
   line-height: normal;
 }
 
 .nav-menu {
   display: flex;
+  gap: 30px;
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: $mobileL) {
       flex-wrap: nowrap;
   }
 }
 
-.nav-link {
+.nav-btn {
   margin: 0 15px 0 15px;
+}
+
+.header-lang {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
 }

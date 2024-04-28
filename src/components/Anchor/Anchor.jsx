@@ -2,8 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Anchor.scss';
 
-const Anchor = ({ href, text, nameDownload, icon }) => (
-  <a href={href} download={nameDownload} className="wrap-anchor">
+const Anchor = ({ href, text, nameDownload, icon, onClick }) => (
+  <a
+    href={href}
+    download={nameDownload ? nameDownload : ''}
+    onClick={onClick ? (e) => onClick(e) : null}
+    className="wrap-anchor">
     {text}
     {icon && <i className={icon}></i>}
   </a>
@@ -11,10 +15,11 @@ const Anchor = ({ href, text, nameDownload, icon }) => (
 
 Anchor.propTypes = {
   // Add here some propTypes
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   href: PropTypes.string.isRequired,
   nameDownload: PropTypes.string,
-  icon: PropTypes.string
+  icon: PropTypes.string,
+  onClick: PropTypes.func
 };
 
 Anchor.defaultProps = {
@@ -22,7 +27,8 @@ Anchor.defaultProps = {
   text: '',
   nameDownload: '',
   href: '',
-  icon: ''
+  icon: '',
+  onClick: () => {}
 };
 
 export default Anchor;

@@ -1,7 +1,38 @@
-// Override default variables before the import
-$white: #fff;
+// COLORS
+$black: #121212;
+$blue-light: #1382BD;
+$grey: rgba(134, 128, 154, 0.60);
 $white-dark: #dedede;
+$white: #fff;
+
+// GRADIENTS COLORS
+$gradient-blue-dark: linear-gradient(90deg, #070E21 17.27%, #051E63 141.36%);
+$gradient-blue: linear-gradient(90deg, #3A1CF5 25.02%, #DE114B 43.65%);
+$gradient-carousel: linear-gradient(101deg, rgba(139, 92, 246, 0.20) 7.97%, rgba(236, 72, 153, 0.20) 92.85%);
+$gradient-orange: linear-gradient(90deg, #FF9F24 39.95%, #F74F0E 77.15%);
+$gradient-purple: linear-gradient(90deg, #FF0036 1.44%, #AD00FF 70.35%);
 
 
-$tablet: 768px;
+// FONT FAMILY
+$font-family-Playfair: Playfair Display;
+$font-family-Poppins: Poppins;
+
+// FONT WEIGHT
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+$font-weight-900: 900;
+
+// FONT SIZE
+$font-size-17: 17px;
+$font-size-24: 24px;
+$font-size-40: 40px;
+$font-size-48: 48px;
+$font-size-52: 52px;
+
+// BREAKPOINTS
 $mobile: 425px;
+$mobileL: 573px;
+$tablet: 768px;

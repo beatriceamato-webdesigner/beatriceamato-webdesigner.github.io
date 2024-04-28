@@ -1,9 +1,11 @@
+@import '../../assets/styles/variables.scss';
+
 .hero-container {
   display: flex;
   flex-direction: row;
   padding: 90px 0 100px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
       flex-direction: column;
       padding: 60px 0 0 0;
   }
@@ -15,7 +17,7 @@
   padding: 0 120px 0 0;
   width: 100%;
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: $mobileL) {
     padding: 0;
   }
 }
@@ -30,51 +32,48 @@
 }
 
 .hero-title {
-  color: #dedede;
-  font-family: Playfair Display;
-  font-size: 52px;
-  font-style: normal;
-  font-weight: 600;
+  color: $white-dark;
+  font-family: $font-family-Playfair;
+  font-size: $font-size-52;
+  // font-style: normal;
+  font-weight: $font-weight-600;
   line-height: 65px;
+  word-wrap: break-word;
   padding-bottom: 20px;
 
   .hero-title__job1 {
-    background: var(--GRADIENT02---ORANGE, linear-gradient(90deg, #FF9F24 39.95%, #F74F0E 77.15%));
+    background: $gradient-orange;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Playfair Display;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 65px;
   }
 
   .hero-title__job2 {
-    background: var(--GRADIENT03---PINK02, linear-gradient(90deg, #FF0036 1.44%, #AD00FF 70.35%));
+    background: $gradient-purple;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Playfair Display;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 65px;
   }
 }
 
 .hero-subtitle {
   align-self: stretch;
-  color: #dedede;
-  font-size: 17px;
+  color: $white-dark;
+  font-size: $font-size-17;
   font-style: normal;
-  font-weight: 300;
+  font-weight: $font-weight-300;
   line-height: 24px;
   padding: 0 0 60px 0;
 }
 
 .hero-actions {
-  button {
-    margin-right: 20px;
+  display: flex;
+  gap: 20px;
+
+  @media screen and (max-width: $mobileL) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
