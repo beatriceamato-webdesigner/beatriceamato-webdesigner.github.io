@@ -3,13 +3,16 @@ import React from 'react';
 import { clientsId } from '../../utils/globals';
 import { logos } from './utility';
 import Button from '../../components/Button/Button';
+import formattedMessage from './languageModule';
 import './Clients.scss';
 
 const Clients = () => (
   <div id={clientsId} className="clients-container">
     <div className="clients-title">
       <span>
-        Some of the<span className="clients-beauty">&nbsp;clients&nbsp;</span>I have designed for
+        {formattedMessage.title1}
+        <span className="clients-beauty">&nbsp;{formattedMessage.titleBeauty}&nbsp;</span>
+        {formattedMessage.title2}
       </span>
     </div>
     <div className="client-list">
@@ -18,7 +21,7 @@ const Clients = () => (
       ))}
     </div>
     <div className="btn-more_clients">
-      <Button text="Find out more" primary />
+      <Button text={formattedMessage.findOutMore} primary />
     </div>
   </div>
 );

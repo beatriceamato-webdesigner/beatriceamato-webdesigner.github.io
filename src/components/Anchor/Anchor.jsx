@@ -15,7 +15,7 @@ const Anchor = ({ href, text, nameDownload, icon, onClick }) => (
 
 Anchor.propTypes = {
   // Add here some propTypes
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   href: PropTypes.string.isRequired,
   nameDownload: PropTypes.string,
   icon: PropTypes.string,

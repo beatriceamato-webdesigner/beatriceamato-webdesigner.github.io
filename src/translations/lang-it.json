@@ -1,8 +1,31 @@
 {
     "t.app.profileName": "Beatrice Amato",
+    "t.app.general.downloadCV": "Scarica CV",
+    "t.app.general.findOutMore": "Scopri di più",
+
     "t.app.header.aboutMe": "Chi sono",
     "t.app.header.portfolio": "Portfolio",
     "t.app.header.contact": "Contatto",
     "t.app.header.en": "EN",
-    "t.app.header.it": "IT"
+    "t.app.header.it": "IT",
+
+    "t.app.hero.title": "Ciao, sono Beatrice ",
+    "t.app.hero.titleJob1": "Digital Art Director",
+    "t.app.hero.titleJob2": "UI/UX Designer",
+    "t.app.hero.subtitle": "Su questo sito web, avrete accesso a un elenco completo dei clienti con cui ho collaborato nel tempo, nonché a una selezione dei progetti che ho intrapreso nel corso degli anni.",
+    "t.app.hero.and": "e",
+
+    "t.app.carousel.title": "I miei recenti",
+    "t.app.carousel.titleBeauty": "lavori",
+
+    "t.app.contract.title": "Informazioni di contatto",
+    "t.app.contract.subtitle": "Di' qualcosa per avviare una chat dal vivo",
+
+    "t.app.clients.title1": "Alcuni dei",
+    "t.app.clients.title2": "per cui ho lavorato",
+    "t.app.clients.titleBeauty": "clienti",
+
+    "t.app.aboutMe.title": "Su di me",
+    "t.app.aboutMe.subtitle1": "Salve, sono Beatrice. La mia città natale è Caltagirone, situata nell'entroterra della Sicilia. Ho sempre studiato a Caltagirone presso l'Accademia \"Steve Jobs\", dove ho approfondito il <b>Digital Marketing</b> e la <b>comunicazione visiva</b>. Successivamente mi sono trasferita a Milano per lavoro, specializzandomi in <b>Digital Art Direction</b> e <b>UI/UX Design.</b>",
+    "t.app.aboutMe.subtitle2": "<b>Se desiderate saperne di più,</b> vi invito a scaricare il mio Curriculum Vitae qui sotto "
 }

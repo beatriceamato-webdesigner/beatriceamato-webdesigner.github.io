@@ -16,7 +16,7 @@ const Button = ({ text, onClick, primary, secondary, active, icon }) => (
 
 Button.propTypes = {
   // Add here some propTypes
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   onClick: PropTypes.func,
   primary: PropTypes.bool,
   secondary: PropTypes.bool,

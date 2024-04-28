@@ -5,6 +5,7 @@ import Flickity from 'react-flickity-component';
 import Fideuram from '../../assets/img/carousel-clients/Fideuram.png';
 import Edenred from '../../assets/img/carousel-clients/Edenred.png';
 import Wonders from '../../assets/img/carousel-clients/Wonders.png';
+import formattedMessage from './languageModule';
 import './Carousel.scss';
 import './flickity.scss';
 
@@ -14,7 +15,8 @@ const Carousel = () => {
   return (
     <div className="carousel-container">
       <span className="carousel-title">
-        My recent <span className="carousel-title-beauty">&nbsp;works</span>
+        {formattedMessage.title}&nbsp;
+        <span className="carousel-title-beauty">{formattedMessage.titleBeauty}</span>
       </span>
       <Flickity>
         {/* <img className="carousel-img" src={Fideuram} alt="img Fideuram" onClick={() => history('/')} /> */}
