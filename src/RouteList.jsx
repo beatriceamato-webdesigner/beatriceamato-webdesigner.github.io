@@ -7,8 +7,7 @@ import Portfolio from './routes/Portfolio/Portfolio';
 function RouteList() {
   return (
     <Routes>
-      <Route path="/" element={<ServicePage />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="*" element={<ServicePage />} />
     </Routes>
