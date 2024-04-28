@@ -1,27 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.98ec546e.css",
-    "main.js": "/static/js/main.ddb0b8d0.js",
-    "static/js/679.f7a1eae5.chunk.js": "/static/js/679.f7a1eae5.chunk.js",
-    "static/js/787.4652a532.chunk.js": "/static/js/787.4652a532.chunk.js",
+    "main.css": "/static/css/main.4abcf6f7.css",
+    "main.js": "/static/js/main.13ba2b9c.js",
+    "static/js/679.f9abb9c8.chunk.js": "/static/js/679.f9abb9c8.chunk.js",
+    "static/js/787.e1b6c831.chunk.js": "/static/js/787.e1b6c831.chunk.js",
     "static/media/CV.pdf": "/static/media/CV.2b979fdef9112c4c9316.pdf",
+    "static/media/logo-menarini.svg": "/static/media/logo-menarini.c6ec042bdab1543e40e1.svg",
     "static/media/aboutMe.png": "/static/media/aboutMe.2042b9304645929520f6.png",
     "static/media/hero.png": "/static/media/hero.2bcbb94769ad6ee0b6e9.png",
+    "static/media/contact.png": "/static/media/contact.246ff19cb8ff17e19b8c.png",
+    "static/media/laScuolaSei.svg": "/static/media/laScuolaSei.c6df6f4a3e5717efd0e6.svg",
     "static/media/Fideuram.png": "/static/media/Fideuram.1b4edfce848203044121.png",
+    "static/media/BOTTER.svg": "/static/media/BOTTER.ae2e43399349aef8b363.svg",
+    "static/media/PREVINET.svg": "/static/media/PREVINET.4970bedb142f12ebd530.svg",
     "static/media/Wonders.png": "/static/media/Wonders.c01a3b67694a1a6f4c3b.png",
     "static/media/Edenred.png": "/static/media/Edenred.76fc7a5b826dcec4b6d1.png",
-    "static/media/logo-menarini.png": "/static/media/logo-menarini.affaec84a09cabf500aa.png",
-    "static/media/SIGEST.png": "/static/media/SIGEST.3b3a23c0a0ef2fa9063c.png",
-    "static/media/PREVINET.png": "/static/media/PREVINET.ea968f228e80c77289b5.png",
-    "static/media/laScuolaSei.png": "/static/media/laScuolaSei.ff83cb01bb415de41717.png",
+    "static/media/SIGEST.svg": "/static/media/SIGEST.bd25f80f4d72195c0f53.svg",
+    "static/media/cucinabarilla.svg": "/static/media/cucinabarilla.0ff55502312c7d827ae6.svg",
+    "static/media/RCS.svg": "/static/media/RCS.98afa69d7a73a6f79284.svg",
+    "static/media/UTA.svg": "/static/media/UTA.18ef54e0122047708398.svg",
+    "static/media/REPLAY.svg": "/static/media/REPLAY.253dfff9096728f7a20f.svg",
+    "static/media/FREETOX.svg": "/static/media/FREETOX.24401c54066c0ac29113.svg",
+    "static/media/FIDEURAM.svg": "/static/media/FIDEURAM.fc5613b05e2ab2236927.svg",
+    "static/media/WONDERS.svg": "/static/media/WONDERS.903030913c4826762fa4.svg",
+    "static/media/ticketRestaurant-logo.svg": "/static/media/ticketRestaurant-logo.18ae894c7c4705c8a604.svg",
+    "static/media/YELDO.svg": "/static/media/YELDO.e3be36ee80a5ddb1bfc6.svg",
     "index.html": "/index.html",
-    "main.98ec546e.css.map": "/static/css/main.98ec546e.css.map",
-    "main.ddb0b8d0.js.map": "/static/js/main.ddb0b8d0.js.map",
-    "679.f7a1eae5.chunk.js.map": "/static/js/679.f7a1eae5.chunk.js.map",
-    "787.4652a532.chunk.js.map": "/static/js/787.4652a532.chunk.js.map"
+    "main.4abcf6f7.css.map": "/static/css/main.4abcf6f7.css.map",
+    "main.13ba2b9c.js.map": "/static/js/main.13ba2b9c.js.map",
+    "679.f9abb9c8.chunk.js.map": "/static/js/679.f9abb9c8.chunk.js.map",
+    "787.e1b6c831.chunk.js.map": "/static/js/787.e1b6c831.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98ec546e.css",
-    "static/js/main.ddb0b8d0.js"
+    "static/css/main.4abcf6f7.css",
+    "static/js/main.13ba2b9c.js"
   ]
 }
